@@ -275,7 +275,7 @@ video {
     width: 100%;
     background-color: #bcff03;
     padding: 30px;
-    padding-top: 160px;
+    padding-top: 100px;
     opacity: 0;
     transition: 0.6s;
 }
@@ -294,14 +294,14 @@ video {
     font-size: 18px;
 }
 
-.card:hover .card{
+.card:hover .overlay {
     cursor: pointer;
     opacity: 1;
 }
 
-.card:hover .card{
+/* .card:hover .overlay {
     transform: rotate3d(-1, 1, 0, 20deg);
-}
+} */
 
 #green-div {
     height: 30vh;
