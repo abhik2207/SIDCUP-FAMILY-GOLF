@@ -294,12 +294,12 @@ video {
     font-size: 18px;
 }
 
-.card:hover .overlay{
+.card:hover .card{
     cursor: pointer;
     opacity: 1;
 }
 
-.card:hover .overlay{
+.card:hover .card{
     transform: rotate3d(-1, 1, 0, 20deg);
 }
 
